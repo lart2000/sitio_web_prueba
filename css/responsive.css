@@ -1,0 +1,95 @@
+@media all and (min-width: 480px) {
+
+   /*************************
+   PAGINA: Contact
+   *************************/
+   #primary{
+     width: 50%;
+     float: left;
+
+   }
+   #secondary{
+    width: 40%;
+   float: left;
+   }
+   /*************************
+   PAGINA: Portafolio
+   *************************/
+   #gallery li{
+     /*15% margin 85% elemtos /3 =28.333*/
+     width: 28.3333%;
+   }
+   #gallery li a p{
+     font-size: 90%;
+   }
+   #gallery li:nth-child(4n){
+      clear: left;
+   }
+   /*************************
+   PAGINA: acercaDe
+   *************************/
+   #foto{
+     float: left;
+   }
+
+   .profile-photo{
+     float: left;
+     margin: 0 5% 0 0;
+
+   }
+   #wrapper section h3{
+     text-align: left;
+   }
+
+
+
+   /*.alCostadoDeimagen{
+
+     margin-left: : 100px;
+     padding-left: 200px;
+   }*/
+
+  /*body{
+    background: navy;
+  }*/
+}
+@media all and (min-width: 660px) {
+  /*body{
+    background: cyan;
+  }*/
+  #logo{
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width:45%;
+  }
+  h1{
+    font-size: 2.5em;
+  }
+  h2{
+    font-size: 0.825em;
+  }
+
+  header{
+    border-bottom: 5px solid #33adff;
+    margin-bottom: 60px;
+  }
+  nav{
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 3%;
+    text-align: right;
+    width: 45%;
+  }
+  body{
+    margin-top: 90px;
+  }
+  .aparence h3{
+    margin-top: 5px;
+  }
+  .aparence p,.aparence a{
+    margin-left: 180px;
+  }
+
+}
